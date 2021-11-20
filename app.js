@@ -14,3 +14,7 @@ app.get('/', (req, res) => {
 app.get('/stuff', (req, res) => {
     res.send('Testing routing...');
 });
+
+app.get('/thing', (req, res) => {
+    res.send('Route testing #2');
+});
